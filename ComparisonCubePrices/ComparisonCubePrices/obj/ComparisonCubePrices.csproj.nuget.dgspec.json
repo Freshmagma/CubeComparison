@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {}
+    "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {
+    "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+        "projectUniqueName": "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
         "projectName": "ComparisonCubePrices",
-        "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
-        "packagesPath": "C:\\Users\\kinim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\obj\\",
+        "projectPath": "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+        "packagesPath": "C:\\Users\\Joaquin Ulrich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kinim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joaquin Ulrich\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.7.0, )"
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

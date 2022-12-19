@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FVrA/CBgyfpcHhXvoi2tLfS5+MCX4ssmUdCbVNBA5SQ4YVHxRVTizPSRAt2ZF7UCryn5hdsdlE01D+iFB32Yxw==",
+  "dgSpecHash": "furzT0r4YmibWUI57ynCbr0rv0gcAsWr7sCOwm44c0q/x9+hEL804fMPZVBJn0hs/RGwFtuOc06G2ZfXZ+Ot7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kinim\\Source\\repos\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+  "projectFilePath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kinim\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\kinim\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

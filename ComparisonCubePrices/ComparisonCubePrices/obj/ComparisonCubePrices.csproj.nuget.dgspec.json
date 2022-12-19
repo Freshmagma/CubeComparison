@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kinim\\Source\\repos\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {}
+    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kinim\\Source\\repos\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {
+    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kinim\\Source\\repos\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+        "projectUniqueName": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
         "projectName": "ComparisonCubePrices",
-        "projectPath": "C:\\Users\\kinim\\Source\\repos\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+        "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
         "packagesPath": "C:\\Users\\kinim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kinim\\Source\\repos\\ComparisonCubePrices\\ComparisonCubePrices\\obj\\",
+        "outputPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\ComparisonCubePrices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kinim\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -25,5 +25,21 @@ namespace ComparisonCubePrices
 
             webDriver.Navigate().GoToUrl("https://fabitasia.ch/");
         }
+
+        public void CompareDailyPuzzles()
+        {
+            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+            webDriver = new ChromeDriver();
+
+            webDriver.Navigate().GoToUrl("https://www.dailypuzzles.com.au/en-ch");
+        }
+
+        public void CompareTheCubicle()
+        {
+            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+            webDriver = new ChromeDriver();
+
+            webDriver.Navigate().GoToUrl("https://www.thecubicle.com/");
+        }
     }
 }

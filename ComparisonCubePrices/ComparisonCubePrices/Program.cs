@@ -36,9 +36,8 @@ while (true)
         var CubeObject = new CubeObjects();
         var callComparePricesMethods = new ComparePrices();
         //callComparePricesMethods.GetPriceCubeLess(input);
-
-        var table = new ConsoleTable("Händler:", CubeObject.CubeSeller, "", "");
-        table.AddRow("Name:", "", CubeObject.CubeName, CubeList)
+        var table = new ConsoleTable("Händler:", CubeObject.CubeSeller, "", "", "", "", "")
+        table.AddRow("Name:", "", CubeObject.CubeName, "")
              .AddRow("Preis:", "", CubeObject.CubePrice, "")
              .AddRow("Lieferzeit:", "", CubeObject.ShippingTime, "");
 

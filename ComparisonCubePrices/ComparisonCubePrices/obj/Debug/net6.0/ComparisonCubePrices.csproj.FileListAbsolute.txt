@@ -22,28 +22,27 @@ C:\Users\kinim\Source\repos\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\
 C:\Users\kinim\Source\repos\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
 C:\Users\kinim\Source\repos\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\WebDriverManager.dll
 C:\Users\kinim\Source\repos\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.CopyComplete
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.exe
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.deps.json
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.runtimeconfig.json
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.pdb
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\AngleSharp.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ConsoleTables.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\WebDriver.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\WebDriverManager.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.AssemblyReference.cache
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.AssemblyInfoInputs.cache
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.AssemblyInfo.cs
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.CoreCompileInputs.cache
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.CopyComplete
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\refint\ComparisonCubePrices.dll
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.pdb
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.genruntimeconfig.cache
-C:\Users\Joaquin Ulrich\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ref\ComparisonCubePrices.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.exe
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.deps.json
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.runtimeconfig.json
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ComparisonCubePrices.pdb
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\WebDriver.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\bin\Debug\net6.0\WebDriverManager.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.AssemblyReference.cache
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.AssemblyInfoInputs.cache
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.AssemblyInfo.cs
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.CoreCompileInputs.cache
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.csproj.CopyComplete
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\refint\ComparisonCubePrices.dll
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.pdb
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ComparisonCubePrices.genruntimeconfig.cache
+C:\Users\kinim\Source\Repos\CubeComparison\ComparisonCubePrices\ComparisonCubePrices\obj\Debug\net6.0\ref\ComparisonCubePrices.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj": {}
+    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj": {
+    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
+        "projectUniqueName": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
         "projectName": "TestCubeComparision",
-        "projectPath": "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
-        "packagesPath": "C:\\Users\\Joaquin Ulrich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joaquin Ulrich\\Source\\Repos\\CubeComparison\\ComparisonCubePrices\\TestCubeComparision\\obj\\",
+        "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
+        "packagesPath": "C:\\Users\\kinim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joaquin Ulrich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kinim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

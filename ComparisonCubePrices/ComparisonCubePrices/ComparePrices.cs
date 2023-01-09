@@ -19,7 +19,7 @@ namespace ComparisonCubePrices
 
         private ChromeDriver webDriver;
 
-        public void GetPriceCubeLess(string cubeName)
+        public CubeObjects GetPriceCubeLess(string cubeName)
         {
             new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             webDriver = new ChromeDriver();
@@ -31,25 +31,34 @@ namespace ComparisonCubePrices
             webDriver.FindElement(By.XPath("//div[@id='search_typeahead']/div/form/div/input")).SendKeys(cubeName);
             act.MoveToElement(webDriver.FindElement(By.XPath("//div[@id='search_typeahead']/div/form/div/button"))).Click().Perform();
             Thread.Sleep(5000);
-            webDriver.FindElement(By.XPath("//div[@id='content_col']/div/div/div/div/a")).Click();
+            webDriver.FindElement(By.XPath("//div[@id='content_col']/div/div/div/div[@class='searchresult-panel items']/a")).Click();
             Thread.Sleep(5000);
 
             CubeCubeLess.CubePrice = webDriver.FindElement(By.XPath("//div[@id='pricebox']/div/p")).Text;
             CubeCubeLess.CubeSeller = "Cubeless";
             CubeCubeLess.CubeName = cubeName;
+
+            return CubeCubeLess;
         }
 
-        public CubeObjects CompareFabitasia()
+        public CubeObjects GetPriceFabitasia(string cubeName)
         {
             new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             webDriver = new ChromeDriver();
+            Actions act = new Actions(webDriver);
+            var CubeFabitasia = new CubeObjects();
 
             webDriver.Navigate().GoToUrl("https://fabitasia.ch/");
+            //act.MoveToElement(webDriver.FindElement(By.XPath("//div[@id='search_typeahead']/div/form/div/button"))).Click().Perform();
+            webDriver.FindElement(By.XPath("//form[@id='RemoteSearch1']/div/div/div/input")).SendKeys(cubeName);
+            act.MoveToElement(webDriver.FindElement(By.XPath("//form[@id='RemoteSearch1']/div/div/div/button"))).Click().Perform();
+            Thread.Sleep(5000);
+            webDriver.FindElement(By.XPath("//div[@id='RemoteSearchResults']/div[@class='HotDealList']/table/tbody/tr/td/div/h3/a")).Click();
+            Thread.Sleep(5000);
 
-            var CubeFabitasia = new CubeObjects { CubePrice = "69.420" };
+            CubeFabitasia.CubePrice = webDriver.FindElement(By.XPath("//div[@class='Price']/span/span[2]")).Text;
             CubeFabitasia.CubeSeller = "Fabitasia";
-            CubeFabitasia.CubeName = "I wanna live up int the Sky!!";
-            CubeFabitasia.ShippingTime = "Your Shipping has been cancelled";
+            CubeFabitasia.CubeName = cubeName;
 
             return CubeFabitasia;
         }

@@ -35,11 +35,13 @@ while (true)
         Console.WriteLine("------------------------------------");
         var CubeObject = new CubeObjects();
         var callComparePricesMethods = new ComparePrices();
-        //callComparePricesMethods.GetPriceCubeLess(input);
-        var table = new ConsoleTable("Händler:", CubeObject.CubeSeller, "", "", "", "", "")
-        table.AddRow("Name:", "", CubeObject.CubeName, "")
-             .AddRow("Preis:", "", CubeObject.CubePrice, "")
-             .AddRow("Lieferzeit:", "", CubeObject.ShippingTime, "");
+        var Object1 = callComparePricesMethods.GetPriceCubeLess(input);
+        var Object2 = callComparePricesMethods.GetPriceFabitasia(input);
+        var Object3 = callComparePricesMethods.GetPriceCubeLess(input);
+        var table = new ConsoleTable("Händler:", Object1.CubeSeller, Object2.CubeSeller, Object3.CubeSeller);
+        table.AddRow("Name:", Object1.CubeName, Object2.CubeName, Object3.CubeName)
+             .AddRow("Preis:", Object1.CubePrice, Object2.CubePrice, Object3.CubePrice)
+             .AddRow("Lieferzeit:", Object1.ShippingTime, Object2.ShippingTime, Object3.ShippingTime);
 
         Console.WriteLine(table);
     }

@@ -16,12 +16,6 @@ namespace ComparisonCubePrices
     }
     public class ComparePrices
     {
-        public class IStruggle
-        {
-            public string CubeName { get; set; }
-            public string CubePrice { get; set; }
-            public string CubeSeller { get; set; }
-        }
 
         private ChromeDriver webDriver;
 
@@ -30,7 +24,7 @@ namespace ComparisonCubePrices
             new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             webDriver = new ChromeDriver();
             Actions act = new Actions(webDriver);
-            var CubeCubeLess = new IStruggle();
+            var CubeCubeLess = new CubeObjects();
 
             webDriver.Navigate().GoToUrl("https://www.cubeless.ch/");
             act.MoveToElement(webDriver.FindElement(By.XPath("//div[@id='search_typeahead']/div/form/div/button"))).Click().Perform();

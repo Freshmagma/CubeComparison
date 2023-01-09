@@ -49,7 +49,6 @@ namespace ComparisonCubePrices
             var CubeFabitasia = new CubeObjects();
 
             webDriver.Navigate().GoToUrl("https://fabitasia.ch/");
-            //act.MoveToElement(webDriver.FindElement(By.XPath("//div[@id='search_typeahead']/div/form/div/button"))).Click().Perform();
             webDriver.FindElement(By.XPath("//form[@id='RemoteSearch1']/div/div/div/input")).SendKeys(cubeName);
             act.MoveToElement(webDriver.FindElement(By.XPath("//form[@id='RemoteSearch1']/div/div/div/button"))).Click().Perform();
             Thread.Sleep(5000);
@@ -63,20 +62,25 @@ namespace ComparisonCubePrices
             return CubeFabitasia;
         }
 
-        public void CompareDailyPuzzles()
+        public CubeObjects GetPriceTheCubicle(string cubeName)
         {
             new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
             webDriver = new ChromeDriver();
-
-            webDriver.Navigate().GoToUrl("https://www.dailypuzzles.com.au/en-ch");
-        }
-
-        public void CompareTheCubicle()
-        {
-            new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
-            webDriver = new ChromeDriver();
+            Actions act = new Actions(webDriver);
+            var CubeTheCubicle = new CubeObjects();
 
             webDriver.Navigate().GoToUrl("https://www.thecubicle.com/");
+            webDriver.FindElement(By.XPath("//input[@id='desktopSearchBar']")).SendKeys(cubeName);
+            act.MoveToElement(webDriver.FindElement(By.XPath("//button[@class='search-bar--submit']"))).Click().Perform();
+            Thread.Sleep(5000);
+            webDriver.FindElement(By.XPath("//a[@class='product-grid-item']")).Click();
+            Thread.Sleep(5000);
+
+            CubeTheCubicle.CubePrice = webDriver.FindElement(By.XPath("//span[@id='productPrice-product-template']/span[@class='visually-hidden']")).Text;
+            CubeTheCubicle.CubeSeller = "TheCubicle";
+            CubeTheCubicle.CubeName = cubeName;
+
+            return CubeTheCubicle;
         }
     }
 }

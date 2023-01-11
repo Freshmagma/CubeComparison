@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {
+                "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +67,75 @@
             "xunit.runner.visualstudio": {
               "target": "Package",
               "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+        "projectName": "ComparisonCubePrices",
+        "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\ComparisonCubePrices\\ComparisonCubePrices.csproj",
+        "packagesPath": "C:\\Users\\kinim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\ComparisonCubePrices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kinim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.16.2, )"
             }
           },
           "imports": [

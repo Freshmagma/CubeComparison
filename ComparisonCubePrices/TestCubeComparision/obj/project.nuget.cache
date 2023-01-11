@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EiCosIC+Nk7y5xpDZk8Sp7q4PtK9e82s3Uu9AWfBWcHYXGCQT74QEiVaWSgCkksTT94iMEqL6iGcboY2dWAzNw==",
+  "dgSpecHash": "+w5eLu6FbNY2I3bgBKe48rq8NqmhuryDXTV33ZI4bzXg2yNA+/thEhYPC6tk6Qtg91usdfo1eednB07M+q5HEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
+  "projectFilePath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\ComparisonCubePrices.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kinim\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kinim\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

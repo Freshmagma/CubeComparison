@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparisonCubePrices", "ComparisonCubePrices\ComparisonCubePrices.csproj", "{AECE10FD-D322-47A5-B561-255264EE0A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCubeComparision", "TestCubeComparision\TestCubeComparision.csproj", "{2BE4C643-2D58-4569-B125-EAAF8CADD2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparisonCubePrices.UnitTests", "TestCubeComparision\ComparisonCubePrices.UnitTests.csproj", "{2BE4C643-2D58-4569-B125-EAAF8CADD2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonCubePrices.AcceptanceTests", "ComparisonCubePrices.AcceptanceTests\ComparisonCubePrices.AcceptanceTests.csproj", "{ED47E95E-5186-429E-9A08-7298E4A41D6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2BE4C643-2D58-4569-B125-EAAF8CADD2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE4C643-2D58-4569-B125-EAAF8CADD2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BE4C643-2D58-4569-B125-EAAF8CADD2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED47E95E-5186-429E-9A08-7298E4A41D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED47E95E-5186-429E-9A08-7298E4A41D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED47E95E-5186-429E-9A08-7298E4A41D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED47E95E-5186-429E-9A08-7298E4A41D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

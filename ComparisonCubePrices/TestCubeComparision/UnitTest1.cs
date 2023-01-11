@@ -1,4 +1,4 @@
-namespace TestCubeComparision
+namespace ComparisonCubePrices.UnitTests
 {
     [TestClass]
     public class UnitTest1

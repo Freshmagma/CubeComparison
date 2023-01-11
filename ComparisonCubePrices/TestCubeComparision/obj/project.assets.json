@@ -6341,9 +6341,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
-      "projectName": "TestCubeComparision",
-      "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\TestCubeComparision.csproj",
+      "projectUniqueName": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\ComparisonCubePrices.UnitTests.csproj",
+      "projectName": "ComparisonCubePrices.UnitTests",
+      "projectPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\ComparisonCubePrices.UnitTests.csproj",
       "packagesPath": "C:\\Users\\kinim\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kinim\\Source\\Repos\\CubeComparison4\\ComparisonCubePrices\\TestCubeComparision\\obj\\",
       "projectStyle": "PackageReference",

@@ -47,6 +47,8 @@ namespace ComparisonCubePrices
             catch
             {
                 CubeCubeLess.CubeName = "Würfel nicht gefunden";
+                CubeCubeLess.CubePrice = "";
+                CubeCubeLess.ShippingTime = "";
             }
             CubeCubeLess.CubeSeller = "Cubeless";
 
@@ -87,6 +89,8 @@ namespace ComparisonCubePrices
             catch
             {
                 CubeFabitasia.CubeName = "Würfel nicht gefunden";
+                CubeFabitasia.CubePrice = "";
+                CubeFabitasia.ShippingTime = "";
             }
             CubeFabitasia.CubeSeller = "Fabitasia";
 
@@ -116,6 +120,8 @@ namespace ComparisonCubePrices
             catch
             {
                 CubeTheCubicle.CubeName = "Würfel nicht gefunden";
+                CubeTheCubicle.CubePrice = "";
+                CubeTheCubicle.ShippingTime = "";
             }
             CubeTheCubicle.CubeSeller = "TheCubicle";
 

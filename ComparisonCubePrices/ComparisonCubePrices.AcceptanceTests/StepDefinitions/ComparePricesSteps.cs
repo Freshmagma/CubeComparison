@@ -21,19 +21,33 @@ namespace ComparisonCubePrices.AcceptanceTests.StepDefinitions
         [Then(@"the seller is Cubeless")]
         public void ThenTheSellerIsCubeless()
         {
-            throw new PendingStepException();
+            cubeObject.CubeSeller.Should().Be("Cubeless");
         }
 
         [Then(@"the price contains (.*)")]
         public void ThenThePriceContainsTrue(bool number)
         {
-            throw new PendingStepException();
+            if(number)
+            {
+                cubeObject.CubePrice.Any(char.IsDigit).Should().BeTrue();
+            }
+            else
+            {
+                cubeObject.CubePrice.Any(char.IsDigit).Should().BeFalse();
+            }
         }
 
         [Then(@"shipping time contains (.*)")]
-        public void ThenShippingTimeContainsTrue(bool Lieferzeit)
+        public void ThenShippingTimeContainsTrue(bool shippingTime)
         {
-            throw new PendingStepException();
+            if (shippingTime)
+            {
+                cubeObject.ShippingTime.Should().Contain("Arbeitstage");
+            }
+            else
+            {
+                cubeObject.ShippingTime.Should().NotContain("Arbeitstage");
+            }
         }
 
     }

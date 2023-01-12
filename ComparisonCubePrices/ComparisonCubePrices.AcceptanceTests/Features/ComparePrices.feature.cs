@@ -83,25 +83,18 @@ namespace ComparisonCubePrices.AcceptanceTests.Features
         [Xunit.SkippableTheoryAttribute(DisplayName="Get Cube and other Information from Cubeless")]
         [Xunit.TraitAttribute("FeatureTitle", "ComparePrices")]
         [Xunit.TraitAttribute("Description", "Get Cube and other Information from Cubeless")]
-        [Xunit.TraitAttribute("Category", "mytag")]
         [Xunit.InlineDataAttribute("Tornado V2", "true", "true", new string[0])]
         [Xunit.InlineDataAttribute("RandomLettersABCQ", "false", "false", new string[0])]
         [Xunit.InlineDataAttribute("YJ MGC 4x4 M", "true", "true", new string[0])]
         public virtual void GetCubeAndOtherInformationFromCubeless(string cube, string number, string lieferzeit, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "mytag"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("Cube", cube);
             argumentsOfScenario.Add("Number", number);
             argumentsOfScenario.Add("Lieferzeit", lieferzeit);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get Cube and other Information from Cubeless", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 4
+#line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -121,20 +114,163 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 5
+#line 4
  testRunner.Given("I instantiate a CubeObject", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 6
+#line 5
  testRunner.When(string.Format("I call the method GetPriceCubeless{0}", cube), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 7
+#line 6
  testRunner.Then("the seller is Cubeless", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 8
+#line 7
  testRunner.And(string.Format("the price contains {0}", number), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 9
+#line 8
  testRunner.And(string.Format("shipping time contains {0}", lieferzeit), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableTheoryAttribute(DisplayName="Get Cube and other Information from Fabitasia")]
+        [Xunit.TraitAttribute("FeatureTitle", "ComparePrices")]
+        [Xunit.TraitAttribute("Description", "Get Cube and other Information from Fabitasia")]
+        [Xunit.InlineDataAttribute("Tornado V2", "true", new string[0])]
+        [Xunit.InlineDataAttribute("RandomLettersABCQ", "false", new string[0])]
+        [Xunit.InlineDataAttribute("YJ MGC 4x4 M", "true", new string[0])]
+        public virtual void GetCubeAndOtherInformationFromFabitasia(string cube, string number, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("Cube", cube);
+            argumentsOfScenario.Add("Number", number);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get Cube and other Information from Fabitasia", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 15
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 16
+ testRunner.Given("I instantiate a CubeObject", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 17
+ testRunner.When(string.Format("I call the method GetPriceFabitasia{0}", cube), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 18
+ testRunner.Then("the seller is Fabitasia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 19
+ testRunner.And(string.Format("the price contains {0}", number), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableTheoryAttribute(DisplayName="Get Cube and other Information from TheCubicle")]
+        [Xunit.TraitAttribute("FeatureTitle", "ComparePrices")]
+        [Xunit.TraitAttribute("Description", "Get Cube and other Information from TheCubicle")]
+        [Xunit.InlineDataAttribute("Tornado V2", "true", new string[0])]
+        [Xunit.InlineDataAttribute("RandomLettersABCQ", "false", new string[0])]
+        [Xunit.InlineDataAttribute("YJ MGC 4x4 M", "true", new string[0])]
+        public virtual void GetCubeAndOtherInformationFromTheCubicle(string cube, string number, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("Cube", cube);
+            argumentsOfScenario.Add("Number", number);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get Cube and other Information from TheCubicle", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 26
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 27
+ testRunner.Given("I instantiate a CubeObject", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 28
+ testRunner.When(string.Format("I call the method GetPriceTheCubicle{0}", cube), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 29
+ testRunner.Then("the seller is TheCubicle", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 30
+ testRunner.And(string.Format("the price contains {0}", number), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableTheoryAttribute(DisplayName="Cube can\'t be found")]
+        [Xunit.TraitAttribute("FeatureTitle", "ComparePrices")]
+        [Xunit.TraitAttribute("Description", "Cube can\'t be found")]
+        [Xunit.InlineDataAttribute("Cubeless", new string[0])]
+        [Xunit.InlineDataAttribute("Fabitasia", new string[0])]
+        [Xunit.InlineDataAttribute("TheCubicle", new string[0])]
+        public virtual void CubeCantBeFound(string shop, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("Shop", shop);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Cube can\'t be found", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 37
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 38
+ testRunner.Given("I instantiate a CubeObject", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 39
+ testRunner.When(string.Format("get a non existing Cube from {0}", shop), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 40
+ testRunner.Then("I get the the message Cube not found", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
